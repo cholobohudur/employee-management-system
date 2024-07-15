@@ -1,0 +1,104 @@
+/* styles.css */
+body {
+    background-color: #397aeb; /* Grameenphone blue */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .form-container {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-red {
+    background-color: #f44336; /* Red */
+  }
+  
+  .button-gray {
+    background-color: #808080; /* Gray */
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-green {
+    background-color: green;
+    color: white;
+  }
+  
+  .button-red {
+    background-color: red;
+    color: white;
+  }
+  
+  .welcome {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
